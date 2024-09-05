@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-// declaration function;
+/* declaration function; */
 float celsius_at_depth(float depth);
 float fahrenheit(float celsius);
 
 int main(void)
 {
-    // declaration variable;
+    /* declaration variable; */
     float depth, celsius, fahrenheit_temp;
-    // input depth
-    printf("Enter depth: ");
+    /* input depth */
+    printf("Enter depth (in kilometers): ");
     scanf("%f", &depth);
-    // compute in celsius
+    /* compute in celsius */
     celsius = celsius_at_depth(depth);
-    // compute in fahrenheit
+    /* compute in fahrenheit */
     fahrenheit_temp = fahrenheit(celsius);
-    // print output
+    /* print output */
     printf("Celsius: %.2f\n", celsius);
     printf("Fahrenheit: %.2f\n", fahrenheit_temp);
     return 0;

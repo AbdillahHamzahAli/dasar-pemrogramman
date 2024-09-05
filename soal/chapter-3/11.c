@@ -5,21 +5,21 @@ float speeds_ratio(float max, float min);
 
 int main(void)
 {
-    // declaration variable
+    /* declaration variable */
     float max, min, ratio;
 
-    // input max speed
+    /* input max speed */
     printf("Enter max speed: ");
     scanf("%f", &max);
 
-    // input min speed
+    /* input min speed */
     printf("Enter min speed: ");
     scanf("%f", &min);
 
-    // formula
+    /* formula */
     ratio = speeds_ratio(max, min);
 
-    // print output
+    /* print output */
     /*
         The ratio between successive speeds of a six-speed gearbox
         with maximum speed __________ rpm and minimum speed __________
